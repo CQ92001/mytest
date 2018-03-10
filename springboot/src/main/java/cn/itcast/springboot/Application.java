@@ -4,7 +4,7 @@ import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication // 代表为springboot应用运行主类
+@SpringBootApplication // 代表为springboot应用运行主类,该注解会扫描本包下的所有包
 public class Application {
 
 	public static void main(String[] args) {
